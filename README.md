@@ -1,9 +1,21 @@
 # Road-Crack-Detection-Using-Instance-Segmentation-Model-YOLACT
 
+### Objective
+In the case of the autonomous driving in Bangladesh , given an front camera view, the car needs to know where is the road and where are the Crackes on the road surface . In this project, we trained a neural network to label the pixels of a road in images, by using a method named Fully Convolutional Network (FCN). In this project, FCN-VGG16 is implemented and trained with our Own collected images for road and Crack segmentation.
 
 ### New Model/ State-Of-Art for Instance Segmentation 
 **Will be Working with This Model Furture in future **
 **Training Testing Evaluation as well** 
+
+#### 1.2 Dependencies & my environment
+
+Anaconda is used for managing the environment.
+
+* Python 3.7.3 , Pytorch v1.1, CUDA 10.0 CuDnn 7.5.0, Numpy, SciPy,glob,tdqm
+* OS: Windows 10 Pro
+* CPU: Intel® Core™ i7-7700K CPU @ 4.000 GHz 4 core × 8 Threads
+* GPU: NVidia GeForce GTX 1070 (8GB GDDR5X VRAM)
+* Memory: 16GB DDR4 2400 MHz
 
 
 ### Command to Test/Eval Model From Pre-train Weights in ./Weights Folder
