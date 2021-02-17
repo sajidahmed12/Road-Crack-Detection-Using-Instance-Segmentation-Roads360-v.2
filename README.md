@@ -4,9 +4,8 @@ Codes and Model Credit Goes to
  - [YOLACT: Real-time Instance Segmentation](https://arxiv.org/abs/1904.02689)
  - [YOLACT++: Better Real-time Instance Segmentation](https://arxiv.org/abs/1912.06218)
 
-
-Previous work on Semantic Segmentaion ## Roads360- https://github.com/sajidahmed12/Roads360-Image-Segmentation-With-Kittiseg-Extended-Model 
-
+My Previous work on Semantic Segmentaion 
+## Roads360- https://github.com/sajidahmed12/Roads360-Image-Segmentation-With-Kittiseg-Extended-Model 
 
 ### Objective
 In the case of the autonomous driving in Bangladesh , given an front camera view, the car needs to know where is the road and where are the Crackes on the road surface . In this project, we trained a neural network to label the pixels of a road in images, by using a Model YOLACT and trained with our Own collected images for road and Crack segmentation.
@@ -46,32 +45,39 @@ our Trained Model Weights: https://drive.google.com/file/d/1z9jg4JxYAHup7Jg6UlA3
 
 Put this Weight file under the ./weights folder
 
-# For Video
+# For Video testing 
 ## Display a video in real-time. "--video_multiframe" will process that many frames at once for improved performance.
 
-## use argument **"--display_fps"** to draw the FPS directly on the frame.
+## use argument **" ```sh--display_fps ```** to draw the FPS directly on the frame.
+```sh
 python eval.py --trained_model=weights/yolact_base_54_800000.pth --score_threshold=0.15 --top_k=15 --video_multiframe=4 --video=my_video3.mp4
-
+```
 ## Process a video and save it to another file.
+```sh
 python eval.py --trained_model=weights/yolact_base_54_800000.pth --score_threshold=0.15 --top_k=15 --video_multiframe=4 --video=input_video.mp4:output_video.mp4
-
+```
 # For image
 ## Display results on the specified image.
+```sh
 python eval.py --trained_model=weights/yolact_base_54_800000.pth --score_threshold=0.15 --top_k=15 --image=my_image.png
-
+```
 ## Process an image and save it to another file.
+```sh
 python eval.py --trained_model=weights/yolact_base_54_800000.pth --score_threshold=0.15 --top_k=15 --image=input_image.png:output_image.png
-
+```
 ## Process a whole folder of images.
+```sh
 python eval.py --trained_model=weights/yolact_base_54_800000.pth --score_threshold=0.15 --top_k=15 --images=path/to/input/folder:path/to/output/folder
-
-# Training
+```
+# Training Model
 ## Trains using the base config with a batch size of 8 ( default).
+```sh
 python train.py --config=yolact_base_config
-
+```
 ## Resume training yolact_base with a Pretrain/specific weight file and start from the iteration specified in the weight file's name.
+```sh
 python train.py --config=yolact_base_config --resume=weights/yolact_base_10_32100.pth --start_iter=-1
-
+```
 # SOME RESULTS 
 
 ![][0]
