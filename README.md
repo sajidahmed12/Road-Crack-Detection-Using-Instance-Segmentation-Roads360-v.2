@@ -104,3 +104,5 @@ python train.py --config=yolact_base_config --resume=weights/yolact_base_10_3210
 [13]: ./results/outputs_25.png
 [14]: ./results/outputs_31.png
 [15]: ./results/outputs_41.png
+
+## if any issues questions please Contract me @sajid.ahmed1@northsouth.edu
