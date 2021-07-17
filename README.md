@@ -42,7 +42,6 @@ in ensuring a safer commutation experience for citizens of Bangladesh. In autono
    ```
  - Set up the environment using one of the following methods:
    - Using [Anaconda](https://www.anaconda.com/distribution/)
-     - Run `conda env create -f environment.yml`
    - Manually with pip
      - Set up a Python3 environment (e.g., using virtenv).
      - Install [Pytorch](http://pytorch.org/) 1.0.1 (or higher) and TorchVision.
