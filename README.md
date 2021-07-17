@@ -35,7 +35,7 @@ in ensuring a safer commutation experience for citizens of Bangladesh. In autono
 
 
 # Installation
- - Clone this repository and enter it:
+ - Clone this repository:
    ```Shell
    git clone https://github.com/sajidahmed12/Road-Crack-Detection-Using-Instance-Segmentation-Model-YOLACT.git
    cd Road-Crack-Detection-Using-Instance-Segmentation-Model-YOLACT
