@@ -1,4 +1,4 @@
-# Road-Crack-Detection-Using-Instance-Segmentation-Model-YOLACT (Roads360 v.2)
+# Road-Crack-Detection-Using-Instance-Segmentation (Roads360 v.2)
 
 Codes and Model Credit Goes to 
  - [YOLACT: Real-time Instance Segmentation](https://arxiv.org/abs/1904.02689)
