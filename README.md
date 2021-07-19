@@ -24,11 +24,13 @@ and anomalies. We believe that such a crowd-sourcing-based platform will be high
 in ensuring a safer commutation experience for citizens of Bangladesh. In autonomous driving in Bangladesh, given a front camera view, the car needs to know where the road is and Crackers on the road surface. In this project, we trained a neural network to label the pixels of a road in images by using a Model YOLACT and trained with our Own collected images for road and Crack segmentation.
 
 
-### Watch the Demo video : [here](https://youtu.be/y2mP3m7w1gY)
+### Watch the Demo video : [here](https://youtu.be/y2mP3m7w1gY) 
 
 <img src="./outputs/Road_Crack_Detection_using_Semantic_Segmentation_Roads360_V2.gif" width="750" height="420"/>
 
-
+```diff
+- "Road" = Colored in Red
+```
 # 499 Capstone Project Showcase Poster 
 ![][img]
 
