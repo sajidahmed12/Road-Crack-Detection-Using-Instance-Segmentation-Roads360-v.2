@@ -1,4 +1,4 @@
-# Road-Crack-Detection-Using-Instance-Segmentation-Model-YOLACT (Roads360 v.2)
+# Road-Crack-Detection-Using-Instance-Segmentation (Roads360 v.2)
 
 Codes and Model Credit Goes to 
  - [YOLACT: Real-time Instance Segmentation](https://arxiv.org/abs/1904.02689)
@@ -35,14 +35,13 @@ in ensuring a safer commutation experience for citizens of Bangladesh. In autono
 
 
 # Installation
- - Clone this repository and enter it:
+ - Clone this repository:
    ```Shell
-   git clone https://github.com/sajidahmed12/Road-Crack-Detection-Using-Instance-Segmentation-Model-YOLACT.git
-   cd Road-Crack-Detection-Using-Instance-Segmentation-Model-YOLACT
+   git clone https://github.com/sajidahmed12/Road-Crack-Detection-Using-Instance-Segmentation-Roads360-v.2
+   cd Road-Crack-Detection-Using-Instance-Segmentation-Roads360-v.2
    ```
  - Set up the environment using one of the following methods:
    - Using [Anaconda](https://www.anaconda.com/distribution/)
-     - Run `conda env create -f environment.yml`
    - Manually with pip
      - Set up a Python3 environment (e.g., using virtenv).
      - Install [Pytorch](http://pytorch.org/) 1.0.1 (or higher) and TorchVision.
@@ -205,5 +204,8 @@ road_dataset = dataset_base.copy({
 [18]: ./results/outputs_20.png
 [19]: ./results/outputs_25.png
 [20]: ./results/outputs_21.png
+
+## References
+* [1] Bolya, D., Zhou, C., Xiao, F., & Lee, Y. J. (2019). Yolact: Real-time instance segmentation. In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 9157-9166).
 
 ## if any issues questions please please contact [Md Sajid Ahmed ](mailto:sajid.ahmed1@northsouth.edu)
