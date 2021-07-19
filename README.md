@@ -205,4 +205,7 @@ road_dataset = dataset_base.copy({
 [19]: ./results/outputs_25.png
 [20]: ./results/outputs_21.png
 
+## References
+* [1] Bolya, D., Zhou, C., Xiao, F., & Lee, Y. J. (2019). Yolact: Real-time instance segmentation. In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 9157-9166).
+
 ## if any issues questions please please contact [Md Sajid Ahmed ](mailto:sajid.ahmed1@northsouth.edu)
