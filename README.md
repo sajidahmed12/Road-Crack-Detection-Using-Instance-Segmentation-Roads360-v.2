@@ -25,7 +25,9 @@ in ensuring a safer commutation experience for citizens of Bangladesh. In autono
 
 
 ### Watch the Demo video : [here](https://youtu.be/y2mP3m7w1gY)
-![][16] 
+
+<img src="./outputs/Road_Crack_Detection_using_Semantic_Segmentation_Roads360_V2.gif" width="750" height="420"/>
+
 
 # 499 Capstone Project Showcase Poster 
 ![][img]
@@ -204,6 +206,7 @@ road_dataset = dataset_base.copy({
 [18]: ./results/outputs_20.png
 [19]: ./results/outputs_25.png
 [20]: ./results/outputs_21.png
+[21]: ./outputs/Road_Crack_Detection_using_Semantic_Segmentation_Roads360_V2.gif
 
 ## References
 * [1] Bolya, D., Zhou, C., Xiao, F., & Lee, Y. J. (2019). Yolact: Real-time instance segmentation. In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 9157-9166).
