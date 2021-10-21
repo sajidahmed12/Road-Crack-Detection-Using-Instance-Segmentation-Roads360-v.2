@@ -1,5 +1,8 @@
 # Road-Crack-Detection-Using-Instance-Segmentation (Roads360 v.2)
 
+This is the Repository for
+## Final Year Capstone Thesis Project: A Complete Road Health Monitoring System for Bangladesh: Crowdsourced Data Collection through User Application and  Smart Analyzer with Real-time Feedback System for Driving Assistance. [Abstract] [Poster] [Github] 
+
 Codes and Model Credit Goes to 
  - [YOLACT: Real-time Instance Segmentation](https://arxiv.org/abs/1904.02689)
  - [YOLACT++: Better Real-time Instance Segmentation](https://arxiv.org/abs/1912.06218)
